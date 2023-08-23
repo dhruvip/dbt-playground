@@ -1,0 +1,175 @@
+[0m21:02:13.133946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2741b533d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f273ea1b5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f273ea1b5b0>]}
+
+
+============================== 21:02:13.137326 | a881ecec-9574-44d5-af97-8d7957081235 ==============================
+[0m21:02:13.137326 [info ] [MainThread]: Running with dbt=1.6.0
+[0m21:02:13.138022 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/dhruvi/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:02:26.037468 [debug] [MainThread]: Starter project path: /home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/include/starter_project
+[0m21:02:26.047690 [info ] [MainThread]: 
+Your new dbt project "project_1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:02:26.050050 [info ] [MainThread]: Setting up your profile.
+[0m21:02:29.012724 [debug] [MainThread]: Command `dbt init` succeeded at 21:02:29.012516 after 15.89 seconds
+[0m21:02:29.013287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2741b533d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f273fe234f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f273e9d7820>]}
+[0m21:02:29.013776 [debug] [MainThread]: Flushing usage events
+[0m11:02:28.391223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c5949d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c563686d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c56368700>]}
+
+
+============================== 11:02:28.395847 | 8eeabf22-73c8-462c-8af2-f0aef408f68a ==============================
+[0m11:02:28.395847 [info ] [MainThread]: Running with dbt=1.6.0
+[0m11:02:28.396758 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dhruvi/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:02:28.398458 [info ] [MainThread]: dbt version: 1.6.0
+[0m11:02:28.399930 [info ] [MainThread]: python version: 3.9.2
+[0m11:02:28.401279 [info ] [MainThread]: python path: /home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/bin/python
+[0m11:02:28.402577 [info ] [MainThread]: os info: Linux-5.10.0-23-amd64-x86_64-with-glibc2.31
+[0m11:02:28.581717 [info ] [MainThread]: Using profiles dir at /home/dhruvi/.dbt
+[0m11:02:28.583177 [info ] [MainThread]: Using profiles.yml file at /home/dhruvi/.dbt/profiles.yml
+[0m11:02:28.584186 [info ] [MainThread]: Using dbt_project.yml file at /home/dhruvi/dhruvi/dbt-playground/dbt_project.yml
+[0m11:02:28.585311 [info ] [MainThread]: Configuration:
+[0m11:02:28.586318 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m11:02:28.587144 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:02:28.587782 [info ] [MainThread]: Required dependencies:
+[0m11:02:28.588494 [debug] [MainThread]: Executing "git --help"
+[0m11:02:28.595337 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:02:28.596429 [debug] [MainThread]: STDERR: "b''"
+[0m11:02:28.597202 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:02:28.598415 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:02:28.599862 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:02:28.601596 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_playground", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m11:02:28.602763 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dhruvi/dhruvi/dbt-playground/dbt_project.yml> not found
+
+[0m11:02:28.604749 [debug] [MainThread]: Command `dbt debug` failed at 11:02:28.604386 after 0.23 seconds
+[0m11:02:28.605962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c5949d0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c56323a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5c549cf190>]}
+[0m11:02:28.607055 [debug] [MainThread]: Flushing usage events
+[0m17:58:42.398150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08afdd6400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08accb6460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08accb6430>]}
+
+
+============================== 17:58:42.401309 | 00f1152e-40f8-4d04-b2b2-a3fdbeeabf93 ==============================
+[0m17:58:42.401309 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:58:42.401942 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dhruvi/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init spark_proj', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:58:42.402995 [debug] [MainThread]: Starter project path: /home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/include/starter_project
+[0m17:58:42.417008 [info ] [MainThread]: 
+Your new dbt project "spark_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:58:42.417972 [info ] [MainThread]: Setting up your profile.
+[0m17:58:46.017776 [error] [MainThread]: Encountered an error:
+
+[0m17:58:46.023286 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/cli/requires.py", line 87, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/cli/requires.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/cli/main.py", line 467, in init
+    results = task.run()
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/task/init.py", line 307, in run
+    adapter = self.ask_for_adapter_choice()
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/task/init.py", line 233, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m17:58:46.026850 [debug] [MainThread]: Command `dbt init` failed at 17:58:46.026283 after 3.64 seconds
+[0m17:58:46.028848 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08afdd6400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08acc71a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f08acc71550>]}
+[0m17:58:46.031062 [debug] [MainThread]: Flushing usage events
+[0m17:59:40.674710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe304b9d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe301a7c460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe301a7c490>]}
+
+
+============================== 17:59:40.677972 | 27a2941b-7b36-4881-9b06-68924ac39746 ==============================
+[0m17:59:40.677972 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:59:40.678652 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/dhruvi/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init spark_proj', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:59:40.679698 [info ] [MainThread]: A project called spark_proj already exists here.
+[0m17:59:40.680465 [debug] [MainThread]: Command `dbt init` succeeded at 17:59:40.680336 after 0.01 seconds
+[0m17:59:40.680952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe304b9d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe301a7c3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe301a7c460>]}
+[0m17:59:40.681441 [debug] [MainThread]: Flushing usage events
+[0m17:59:56.675158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5c28a400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5916a490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5916a460>]}
+
+
+============================== 17:59:56.678557 | 24da0237-1ea0-4ff0-a566-6521b0d55494 ==============================
+[0m17:59:56.678557 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:59:56.679207 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dhruvi/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init spark_proj', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:59:56.680239 [debug] [MainThread]: Starter project path: /home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/include/starter_project
+[0m17:59:56.682306 [info ] [MainThread]: 
+Your new dbt project "spark_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:59:56.682785 [info ] [MainThread]: Setting up your profile.
+[0m18:00:41.577227 [info ] [MainThread]: Profile spark_proj written to /home/dhruvi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:00:41.579148 [debug] [MainThread]: Command `dbt init` succeeded at 18:00:41.578845 after 44.91 seconds
+[0m18:00:41.580186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5c28a400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5916a490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3b5d029190>]}
+[0m18:00:41.581129 [debug] [MainThread]: Flushing usage events
+[0m19:12:20.075885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ea166c490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e9e54d4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e9e54d490>]}
+
+
+============================== 19:12:20.079160 | 51745296-97b7-4b26-b23b-9371fe8b577b ==============================
+[0m19:12:20.079160 [info ] [MainThread]: Running with dbt=1.6.0
+[0m19:12:20.079820 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dhruvi/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init spark_proj', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:12:20.080861 [debug] [MainThread]: Starter project path: /home/dhruvi/.local/share/virtualenvs/dbt-playground-0ypxnvyW/lib/python3.9/site-packages/dbt/include/starter_project
+[0m19:12:20.083379 [info ] [MainThread]: 
+Your new dbt project "spark_proj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:12:20.084084 [info ] [MainThread]: Setting up your profile.
+[0m19:12:51.804355 [info ] [MainThread]: Profile spark_proj written to /home/dhruvi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:12:51.805580 [debug] [MainThread]: Command `dbt init` succeeded at 19:12:51.805381 after 31.74 seconds
+[0m19:12:51.806227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ea166c490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e9e54d4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8ea240b190>]}
+[0m19:12:51.806904 [debug] [MainThread]: Flushing usage events
